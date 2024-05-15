@@ -1,0 +1,43 @@
+.card {
+    --bs-card-height: 410px;
+}
+
+.card-body {
+    position: relative;
+    color: #d1d1d1;
+
+    .genre-tag {
+        background: #454545;
+        color: #fff;
+        padding: 3px 11px 6px;
+        border-radius: 6px;
+        width: fit-content;
+        font-size: 14px;
+        width: fit-content;
+        position: absolute;
+        bottom: 16px;
+    }
+}
+
+.filterBtn {
+    padding: 0rem 1rem 0.4rem;
+    font-size: 16px;
+    margin: 0;
+    color: #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+@media(max-width: 768px) {
+    .card {
+        height: fit-content;
+    }
+
+    .card-body {
+        position: relative;
+    
+    
+        .genre-tag {
+            position: static;
+        }
+    }
+}
