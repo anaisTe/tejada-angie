@@ -2,19 +2,21 @@
 
 # Instrucciones de instalación
 
-# Clonar el repositorio
+## Clonar el repositorio
     $ git clone https://github.com/anaisTe/tejada-angie.git
 
-# Instalar dependencias
+## Instalar dependencias
     $ npm install
 
-# Iniciar el servidor de desarrollo
+## Iniciar el servidor de desarrollo
     $ npm run dev
-    El servidor de desarrollo se ejecutará en `http://localhost:5173/` por defecto.
+    
+    *El servidor de desarrollo se ejecutará en `http://localhost:5173/` por defecto.*
 
-# Iniciar el servidor local para consumo de dataMock
+## Iniciar el servidor local para consumo de dataMock
     npx json-server --watch db.json
-    El servidor de desarrollo se ejecutará en `http://localhost:3000/` por defecto. 
+    
+    *El servidor de desarrollo se ejecutará en `http://localhost:3000/` por defecto.*
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
